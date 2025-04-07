@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coming Soon | folioDesigners</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #111111;
+        color: #ffffff;
+        text-align: center;
+      }
+      header {
+        padding: 30px 0;
+      }
+      header h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 48px;
+        font-weight: bold;
+        color: #00bcd4;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-size: 72px;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      .subheading {
+        font-size: 20px;
+        color: #bbbbbb;
+      }
+      .cta {
+        margin-top: 30px;
+      }
+      .cta input {
+        padding: 10px;
+        width: 250px;
+        background-color: #333333;
+        border: 2px solid #00bcd4;
+        color: #ffffff;
+        font-size: 16px;
+        margin-right: 10px;
+        border-radius: 5px;
+      }
+      .cta button {
+        padding: 12px 25px;
+        background-color: #ff5722;
+        border: none;
+        color: #ffffff;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      .cta button:hover {
+        background-color: #ff9800;
+      }
+      .countdown {
+        font-size: 48px;
+        font-weight: bold;
+        color: #ff5722;
+      }
+      .footer {
+        margin-top: 50px;
+        font-size: 14px;
+        color: #bbbbbb;
+      }
+      .footer .social-icons a {
+        color: #00bcd4;
+        margin: 0 10px;
+        font-size: 24px;
+        text-decoration: none;
+      }
+      .footer .social-icons a:hover {
+        color: #ff5722;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>folioDesigners.Com</h1>
+      <p class="subheading">Designing the Future of Your Portfolio</p>
+    </header>
+    <section>
+      <h2>We’re Coming Soon</h2>
+      <p class="subheading">
+        A brand new experience is on the way. Stay tuned!
+      </p>
+
+      <div class="countdown" id="countdown"></div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 folioDesigners.com All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">Twitter</a>
+        <a href="#" target="_blank">Instagram</a>
+        <a href="#" target="_blank">LinkedIn</a>
+      </div>
+    </footer>
+
+    <script>
+      // Countdown Timer script
+      const countdownDate = new Date("May 1, 2025 00:00:00").getTime();
+
+      const countdownFunction = setInterval(function () {
+        const now = new Date().getTime();
+        const distance = countdownDate - now;
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("countdown").innerHTML =
+          days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+        if (distance < 0) {
+          clearInterval(countdownFunction);
+          document.getElementById("countdown").innerHTML = "Launch Day!";
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>

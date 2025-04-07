@@ -1,0 +1,225 @@
+
+
+https://chat.openai.com/c/adc84870-27d5-4a1a-ae12-6f19c8dda7d7
+https://chat.openai.com/c/d69f25ba-5d75-438a-8a4b-220620c2769b
+https://chat.openai.com/c/d69f25ba-5d75-438a-8a4b-220620c2769b
+
+
+
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet - spreadsheep
+
+response - 
+{
+  "id": "f6c29e6d-e8e8-435e-95ee-13674985d836",
+  "filename": "header.jpg",
+  "contentType": "image/jpeg",
+  "fileId": "usd_indemnities_f6c29e6d_e8e8_435e_95ee_13674985d836_header.jpg"
+}
+
+finacial - 
+{
+  "fileId": "f6c29e6d-e8e8-435e-95ee-13674985d836",
+  "fileType": "usd"
+}
+
+
+image url - 
+{
+  "presignedUrl": "https://subroforce-dev.s3.us-east-1.amazonaws.com/usd_default_f6c29e6d_e8e8_435e_95ee_13674985d836_header.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAWZAV56WATSFNH6GM%2F20240318%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240318T124523Z&X-Amz-Expires=300&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEM3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIEg6e3QyxjqynQcES1hvXO4UBJcO5Z7yiPvYu%2BWq%2FNT5AiAE7SS69xh0%2B%2BGGGWXL0XfbfkK0JmrXXHdlMCB4LJF3CirEBQjW%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAIaDDQ2NjA0OTk1NTIwMSIM%2FJdnJS%2BhW5z2uNMhKpgF9TrWrqngmvK1WzL8%2FNjwh3u%2FSA%2FXKvumcLY%2FMYAQLe89YgiKqZEjdve8v9O74FzwSZnCWZqudCXILzTb1AhyefAvrq4iI8YpOVuzhHjnAZDq5iOpsYDiO4ZFli5SoNM%2BH6hhWA7wI%2FsKEl0IyRnZVIfqfyFv9RwDEe6cFj4CMG5wkU6zjkHc%2FWJaGK1ozoaOXy4DEYdemb66TXIkP7xd%2Fndo60q5bRFjQg6UXnMw6Mg0GZT%2BYqDLuXo3L2vCCnNE1Lurc1zENf5yrrQEGn7Ra%2BQJTKQtYtNcw8JI0Yv9pxg3jDjKPQXUsGNF9Y3XpF8E7pNfcIdbb11gvk2aki00t8nLyVuq2c5cL7rDyssf7dY0XIeWc67Dmn4Twaks9DaLHYa%2B80mHwA%2FdNhblV9amjzzx68leVBuKO2ZEf7PuBV1DLfc0HVRrQvKdo89UpJ%2B90kJ2Uxj2UvCi0sFNknZ9c%2B%2BbXrfeOktUuRWd4T6F7nrRe7ZegMPJDg1izwxaRYdFupyCsQ4BhD5qr35zlNiAfaxZZCe7DW2X%2FatnzEPnQWt%2BaBsstXx7sdKPxzrvul9emXBnPmzsjWoz%2BcQCXd1fuwBqrAPIruCuyu0CcjgTS%2BBKfkhKQu3A9zqIKnDUQ35MF3xtNAr%2Bz3rJIipIMKrBoRsBuP5r4p6Viac6uh6kosxZ8RtvqmO%2FLLAl9axVbZjSFLOptgIdFUgOsqITi2pRIhhgiCgHtxv3VQwEeCvkQGSHahIwfYuZfdhl3QKLFg9WUkFaHL4pVfAw2q9Sb7UiPvG921XJj%2BVVfmqFU0TGw5GHP4gc2MvMyEHov%2BwTdcBqzyfm5kQosYKqYaXmPw52HXqV7CutGwBCfytXjYdlJbCHeMIGzpSFozCX7eCvBjqyAXlqTG9MhC4SCxSjXhsbGWmN9IEHvMM6K5rnLrCW%2BEJFoJ2KXK1FxpziFHHYmtplS9IhChuNOTDQnGE5jacaakY67llu0wvdTL95G6vs2c9NDxZhMIIE%2Fu47z6hdJXsDZSqLLelbL8MPJd487yDlw8we8UmSw4Jt%2BCByRaC9vdYdnw3bOPWIw2sWFEeJm8fyklx9ImgKeL%2BUYJypVSdK167bY30gratv9QKyj23Y34vmTaE%3D&X-Amz-Signature=ba4e2a41ded0b55e17582717dc917c8c6d51604dd942b58878f329bcf4a8f00d&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dusd_default_f6c29e6d_e8e8_435e_95ee_13674985d836_header.jpg&response-content-type=image%2Fjpeg&x-id=GetObject",
+  "mimetype": "image/jpeg",
+  "name": "header.jpg"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. API name - Send email with template 
+   URL - /subro-force-email/api/v1/email
+   Method - POST 
+   Request - {
+        "template": "WELCOME_TEMPLATE",
+        "toAddress": ["deepak.kumar@gigaforce.io"],
+        "subjectData": [
+            {
+                "placeholder": "NAME",
+                "value": "Welcome email"
+            }
+        ],
+        "bodyData": [
+            {
+                "placeholder": "USER",
+                "value": "Deeoak Kumar"
+            },
+            {
+                "placeholder": "USERNAME",
+                "value": "deepakKumar07"
+            },
+            {
+                "placeholder": "URL",
+                "value": "https://www.google.com/"
+            }
+        ]
+    }
+    Response - {
+        "message": "Request has been submitted successfully",
+        "data": []
+    }
+
+2. API name - Send email without template 
+   URL - /subro-force-email/api/v1/email
+   Method - POST 
+   Request - {
+        "template": "NONE",
+        "toAddress": ["deepak.kumar@gigaforce.io"],
+        "subjectData": [
+            {
+                "placeholder": "DATA",
+                "value": "Welcome email"
+            }
+        ],
+        "bodyData": [
+            {
+                "placeholder": "DATA",
+                "value": "whole email body"
+            }
+        ]
+    }
+    Response - {
+        "message": "Request has been submitted successfully",
+        "data": []
+    }
+
+2. API name - Get the template information
+   URL - /subro-force-email/api/v1/email/template?name=RESET_PASSWORD_TEMPLATE
+   Method - GET 
+   Request - Request Param as name
+   Response - {
+    "message": "Request has been submitted successfully",
+    "data": [
+            {
+                "name": "RESET_PASSWORD_TEMPLATE",
+                "description": "User reset password template",
+                "bodyPlaceholder": [
+                    "YEAR",
+                    "URL"
+                ],
+                "subjectPlaceholder": [
+                    "NAME"
+                ]
+            }
+        ]
+    }
+
+    Note:- Other available templates are - WELCOME_TEMPLATE, UPDATE_PASSWORD_TEMPLATE, OTP_TEMPLATE, RESET_PASSWORD_TEMPLATE, NONE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO public.subro_force_communication_attributes
+(id, "key", value)
+VALUES(2, 'EMAIL_PORT', '587');
+INSERT INTO public.subro_force_communication_attributes
+(id, "key", value)
+VALUES(3, 'EMAIL_USERNAME', 'AKIAWR6FMFXVIFYWJGQE');
+INSERT INTO public.subro_force_communication_attributes
+(id, "key", value)
+VALUES(4, 'EMAIL_PASSWORD', 'BLrbSa6IvcSaJeRmloUJ/wNd0Lqh425LO5FPrWALAFUw');
+INSERT INTO public.subro_force_communication_attributes
+(id, "key", value)
+VALUES(5, 'EMAIL_TRANSPORT_PROTOCOL_KEY', 'mail.transport.protocol');
+INSERT INTO public.subro_force_communication_attributes
+(id, "key", value)
+VALUES(1, 'EMAIL_HOST', 'email-smtp.ap-south-1.amazonaws.com');
+INSERT INTO public.subro_force_communication_attributes
+(id, "key", value)
+VALUES(6, 'EMAIL_TRANSPORT_PROTOCOL_VALUE', 'smtp');
+INSERT INTO public.subro_force_communication_attributes
+(id, "key", value)
+VALUES(7, 'EMAIL_SMTP_AUTH_KEY', 'mail.smtp.auth');
+INSERT INTO public.subro_force_communication_attributes
+(id, "key", value)
+VALUES(8, 'EMAIL_SMTP_AUTH_VALUE', 'true');
+INSERT INTO public.subro_force_communication_attributes
+(id, "key", value)
+VALUES(9, 'EMAIL_START_TLS_KEY', 'mail.smtp.starttls.enable');
+INSERT INTO public.subro_force_communication_attributes
+(id, "key", value)
+VALUES(10, 'EMAIL_START_TLS_VALUE', 'true');
+
+
+
+    Note: - Templates and placeholders are defined below:-
+            1. Template name - WELCOME_TEMPLATE
+               Placeholders - 
+                a. USER - To provide the name placeholder
+                b. USERNAME - To provide the username placeholder
+                c. YEAR - To provide the year placeholder
+                d. URL - To provide the reset password url placeholder
+                e. NAME - To provide the subject placeholder
+               
+            2. UPDATE_PASSWORD_TEMPLATE
+               Placeholders - 
+                a. NEW_PASSWORD - To provide the new password
+                b. USER - To provide the user name placeholder
+                c. YEAR - To provide the year placeholder
+                d. NAME - To provide the subject placeholder
+
+            3. OTP_TEMPLATE
+               Placeholders - 
+                a. USER - To provide the name placeholder
+                b. OTP - To provide the otp
+                c. YEAR - To provide the year placeholder
+                d. NAME - To provide the subject placeholder
+
+            4. RESET_PASSWORD_TEMPLATE
+                a. YEAR - To provide the year placeholder
+                b. URL - To provide the reset password url placeholder
+                c. NAME - To provide the subject placeholder

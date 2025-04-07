@@ -1,0 +1,51 @@
+c147aabc-00fd-41f7-b839-54e9b0c782bf | Admin@test.io
+8f6182dd-41d7-42e5-90f8-151f9331e4c5 | Executive@test.io
+f6f3d6cd-3c3c-4880-a975-281bface5efc | Supervisor@test.io
+75f95582-8044-4071-9a0b-e5d4450cc3ea | specialist@test.io
+
+b52b0de8-3218-4fcb-aeee-ad1669af16f9 | Client@test.io
+
+
+
+5dd51905-6952-4bc7-9a2f-8e67a75081a7 | dev@subroforce.io
+
+
+QNjUIMorJb8Ubj2+wVGYp6eAeYkdekqAcnYp+aRq5w=
+
+
+INSERT INTO public.gigaforce_user_password_history
+("uuid", created_by, created_on, updated_by, updated_on, is_active, "password", password_expiration_date, user_id, secret_key)
+VALUES
+('ce3f5f37-6e2a-4a68-b1f7-cd68c3c9a1c1'::uuid, '5dd51905-6952-4bc7-9a2f-8e67a75081a7', '2024-08-30 08:48:19.774', '5dd51905-6952-4bc7-9a2f-8e67a75081a7', '2024-10-08 08:34:05.058', true, 'dQNjUIMorJb8Ubj2+wVGYp6eAeYkdekqAcnYp+aRq5w=', '2025-08-30 08:48:19.774', 'c147aabc-00fd-41f7-b839-54e9b0c782bf'::uuid, NULL),
+('d29d5e19-7284-4055-b27f-c2e4374c6f6b'::uuid, '5dd51905-6952-4bc7-9a2f-8e67a75081a7', '2024-08-30 08:48:19.774', '5dd51905-6952-4bc7-9a2f-8e67a75081a7', '2024-10-08 08:34:05.058', true, 'dQNjUIMorJb8Ubj2+wVGYp6eAeYkdekqAcnYp+aRq5w=', '2025-08-30 08:48:19.774', '8f6182dd-41d7-42e5-90f8-151f9331e4c5'::uuid, NULL),
+('f58b6b18-a97c-4a23-b684-1b472f4d5156'::uuid, '5dd51905-6952-4bc7-9a2f-8e67a75081a7', '2024-08-30 08:48:19.774', '5dd51905-6952-4bc7-9a2f-8e67a75081a7', '2024-10-08 08:34:05.058', true, 'dQNjUIMorJb8Ubj2+wVGYp6eAeYkdekqAcnYp+aRq5w=', '2025-08-30 08:48:19.774', 'f6f3d6cd-3c3c-4880-a975-281bface5efc'::uuid, NULL),
+('a3b27a62-2e0a-4b9a-86a3-f1c3a27c2d8c'::uuid, '5dd51905-6952-4bc7-9a2f-8e67a75081a7', '2024-08-30 08:48:19.774', '5dd51905-6952-4bc7-9a2f-8e67a75081a7', '2024-10-08 08:34:05.058', true, 'dQNjUIMorJb8Ubj2+wVGYp6eAeYkdekqAcnYp+aRq5w=', '2025-08-30 08:48:19.774', '75f95582-8044-4071-9a0b-e5d4450cc3ea'::uuid, NULL);
+
+
+
+
+
+
+
+
+
+INSERT INTO public.gigaforce_user_password_history
+("uuid", created_by, created_on, updated_by, updated_on, is_active, "password", password_expiration_date, user_id, secret_key)
+VALUES('ad8e3839-cdef-4f83-b5b7-b5e882e7e19f'::uuid, '5dd51905-6952-4bc7-9a2f-8e67a75081a7', '2024-08-30 08:48:19.774', '5dd51905-6952-4bc7-9a2f-8e67a75081a7', '2024-10-08 08:34:05.058', true, 'dQNjUIMorJb8Ubj2+wVGYp6eAeYkdekqAcnYp+aRq5w=', '2025-08-30 08:48:19.774', 'c147aabc-00fd-41f7-b839-54e9b0c782bf'::uuid, NULL);
+
+
+Username - Client@test.io
+Password - admin
+
+Username - Supervisor@test.io
+Password - admin
+
+Username - specialist@test.io
+Password - admin
+
+Username - Executive@test.io
+Password - admin
+
+Username - Admin@test.io
+Password - admin
+
