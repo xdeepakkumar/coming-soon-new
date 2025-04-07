@@ -4,118 +4,223 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Coming Soon | folioDesigners</title>
+    <title>Coming Soon - Launching 1st May 2025</title>
+
+    <!-- Bootstrap 5 CDN -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@400;600&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+
+    <!-- FontAwesome for Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <style>
       body {
         font-family: "Roboto", sans-serif;
+        background-color: #0f0f0f; /* Dark background */
+        color: #f5f5f5; /* Light gray text */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
         margin: 0;
         padding: 0;
-        background-color: #111111;
-        color: #ffffff;
+      }
+
+      .container {
+        background-color: #232323; /* Slightly lighter than the background */
+        border-radius: 15px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+        padding: 40px;
+        max-width: 800px;
+        width: 100%;
         text-align: center;
       }
-      header {
-        padding: 30px 0;
-      }
-      header h1 {
-        font-family: "Montserrat", sans-serif;
-        font-size: 48px;
-        font-weight: bold;
-        color: #00bcd4;
-        letter-spacing: 2px;
+
+      .company-name {
+        font-size: 3rem;
+        font-weight: 900;
+        color: #00f9ff; /* Electric Cyan */
+        margin-bottom: 30px;
         text-transform: uppercase;
+        animation: fadeIn 1s ease-out;
       }
-      h2 {
-        font-size: 72px;
+
+      h1 {
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+        color: #f5f5f5;
+        font-weight: 700;
+      }
+
+      .countdown {
+        font-size: 3rem;
+        margin: 20px 0;
         color: #ffffff;
-        font-weight: bold;
+        letter-spacing: 1px;
       }
-      .subheading {
-        font-size: 20px;
-        color: #bbbbbb;
-      }
-      .cta {
+
+      .email-signup {
         margin-top: 30px;
       }
-      .cta input {
-        padding: 10px;
-        width: 250px;
-        background-color: #333333;
-        border: 2px solid #00bcd4;
-        color: #ffffff;
-        font-size: 16px;
+
+      .email-signup input {
+        padding: 12px;
+        font-size: 1.1rem;
+        width: 300px;
+        max-width: 100%;
         margin-right: 10px;
-        border-radius: 5px;
-      }
-      .cta button {
-        padding: 12px 25px;
-        background-color: #ff5722;
         border: none;
-        color: #ffffff;
-        font-size: 16px;
+        border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+      }
+
+      .email-signup button {
+        padding: 12px 20px;
+        font-size: 1.1rem;
+        background-color: #a3ff00; /* Lime Green */
+        color: #121212;
+        border: none;
         border-radius: 5px;
         cursor: pointer;
-        transition: background-color 0.3s;
+        transition: all 0.3s ease;
       }
-      .cta button:hover {
-        background-color: #ff9800;
+
+      .email-signup button:hover {
+        background-color: #8cff00; /* Slightly lighter lime green */
+        transform: scale(1.05);
       }
-      .countdown {
-        font-size: 48px;
-        font-weight: bold;
-        color: #ff5722;
-      }
-      .footer {
+
+      footer {
         margin-top: 50px;
-        font-size: 14px;
-        color: #bbbbbb;
+        font-size: 0.8rem;
+        color: #888;
       }
-      .footer .social-icons a {
-        color: #00bcd4;
-        margin: 0 10px;
-        font-size: 24px;
+
+      footer a {
+        color: #00f9ff;
         text-decoration: none;
       }
-      .footer .social-icons a:hover {
-        color: #ff5722;
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      /* Fade-in animation for elements */
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      /* Responsive Styles */
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 2.8rem;
+        }
+
+        .countdown {
+          font-size: 2.2rem;
+        }
+
+        .email-signup {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .email-signup input,
+        .email-signup button {
+          width: 100%;
+          margin: 10px 0;
+        }
+      }
+
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 2.5rem;
+        }
+
+        .countdown {
+          font-size: 2rem;
+        }
+
+        .company-name {
+          font-size: 2rem;
+        }
+
+        .email-signup input {
+          font-size: 1rem;
+          padding: 10px;
+        }
+
+        .email-signup button {
+          font-size: 1rem;
+          padding: 10px;
+        }
       }
     </style>
   </head>
   <body>
-    <header>
-      <h1>folioDesigners.Com</h1>
-      <p class="subheading">Designing the Future of Your Portfolio</p>
-    </header>
-    <section>
-      <h2>We’re Coming Soon</h2>
-      <p class="subheading">
-        A brand new experience is on the way. Stay tuned!
-      </p>
+    <div class="container">
+      <!-- Company Name -->
+      <div class="company-name">FolioDesigners.Com</div>
 
-      <div class="countdown" id="countdown"></div>
-    </section>
+      <!-- Coming Soon Heading -->
+      <h1>Our New Site is Coming Soon</h1>
 
-    <footer class="footer">
-      <p>© 2025 folioDesigners.com All rights reserved.</p>
-      <div class="social-icons">
-        <a href="#" target="_blank">Facebook</a>
-        <a href="#" target="_blank">Twitter</a>
-        <a href="#" target="_blank">Instagram</a>
-        <a href="#" target="_blank">LinkedIn</a>
+      <!-- Countdown Timer -->
+      <div class="countdown" id="countdown">30d 15h 24m 50s</div>
+
+      <!-- Email Signup Form -->
+      <div class="email-signup">
+        <input type="email" placeholder="Enter your email" id="email" />
+        <button onclick="subscribe()">
+          <i class="fas fa-paper-plane"></i> Notify Me
+        </button>
       </div>
-    </footer>
+
+      <!-- Footer Section -->
+      <footer>
+        <p>
+          &copy; 2025 <a href="#">Privacy Policy</a> |
+          <a href="#">Terms of Service</a>
+        </p>
+      </footer>
+    </div>
+
+    <!-- Bootstrap JS & Popper.js (for interactivity like tooltips and popovers) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 
     <script>
-      // Countdown Timer script
+      // Countdown Timer Functionality
       const countdownDate = new Date("May 1, 2025 00:00:00").getTime();
+      const countdownElement = document.getElementById("countdown");
 
-      const countdownFunction = setInterval(function () {
+      function updateCountdown() {
         const now = new Date().getTime();
         const distance = countdownDate - now;
+
+        if (distance < 0) {
+          countdownElement.innerHTML = "We’ve Launched!";
+          clearInterval(interval);
+          return;
+        }
 
         const days = Math.floor(distance / (1000 * 60 * 60 * 24));
         const hours = Math.floor(
@@ -124,14 +229,20 @@
         const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("countdown").innerHTML =
-          days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+        countdownElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+      }
 
-        if (distance < 0) {
-          clearInterval(countdownFunction);
-          document.getElementById("countdown").innerHTML = "Launch Day!";
+      const interval = setInterval(updateCountdown, 1000);
+
+      function subscribe() {
+        const email = document.getElementById("email").value;
+        if (email) {
+          alert("Thank you for subscribing!");
+          // Here you would add your subscription logic (API call, etc.)
+        } else {
+          alert("Please enter a valid email.");
         }
-      }, 1000);
+      }
     </script>
   </body>
 </html>
